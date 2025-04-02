@@ -7,12 +7,12 @@ int main() {
     printf("Qual tamanho deseja? \n");
     scanf("%d", &tamanho);
 
-    int qtdsabor;
+    int modelosabor;
     printf("(1)-Inteira (2)-Meia a Meia\n");
     printf("Qual é o modelo? \n");
-    scanf("%d", &qtdsabor);
+    scanf("%d", &modelosabor);
 
-    if (qtdsabor == 1)
+    if (modelosabor == 1)
     {
         int sabor;
         printf("(1)-Mussarela\n");
@@ -32,5 +32,10 @@ int main() {
         printf("Escolha seu Sabor: \n");
         scanf("%d", &sabor);
     }
+
+    int borda;
+    printf("(1)-Sim (2)-Nao\n");
+    printf("Deseja adicionar borda de Catupry? \n");
+    scanf("%d", &borda);
 
 }
