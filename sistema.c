@@ -3,14 +3,14 @@
 int main() {
     int tamanho;
 
-    printf("(1)-Pequena (2)-Média (3)-Grande");
+    printf("(1)-Pequena (2)-Media (3)-Grande\n");
     printf("Qual tamanho deseja? \n");
     scanf("%d", &tamanho);
 
-    char qtdsabor;
-    printf("(1)-Inteira (2)-Meia a Meia");
-    printf("Qual é o modelo? ");
-    scanf("%c", &qtdsabor);
+    int qtdsabor;
+    printf("(1)-Inteira (2)-Meia a Meia\n");
+    printf("Qual é o modelo? \n");
+    scanf("%d", &qtdsabor);
 
     if (qtdsabor == 1)
     {
@@ -32,6 +32,5 @@ int main() {
         printf("Escolha seu Sabor: \n");
         scanf("%d", &sabor);
     }
-    
 
 }
