@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
+    
     int tamanho;
-
     printf("(1)-Pequena (2)-Media (3)-Grande\n");
     printf("Qual tamanho deseja? \n");
     scanf("%d", &tamanho);
@@ -42,10 +42,10 @@ int main() {
         scanf("%d", &sabor2);
     }
 
-    int borda;
-    printf("(1)-Sim (2)-Nao\n");
+    char borda;
+    printf("Sim - Nao\n");
     printf("Deseja adicionar borda de Catupry? \n");
-    scanf("%d", &borda);
+    scanf("%c", &borda);
 
 
 }
