@@ -1,7 +1,24 @@
 #include <stdio.h>
+#include <time.h>
 
 int main() {
-    
+
+    printf("             OOOOOOOOOOO               \n");
+    printf("         OOOOOOOOOOOOOOOOOOO           \n");
+    printf("      OOOOOO  OOOOOOOOO  OOOOOO        \n");
+    printf("    OOOOOO      OOOOO      OOOOOO      \n");
+    printf("  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n");
+    printf(" OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n");
+    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO     Bem Vindo(a)  \n");
+    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO Escolha sua Pizza!\n");
+    printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
+    printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
+    printf("  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n");
+    printf("    OOOOO   OOOOOOOOOOOOOOO   OOOO     \n");
+    printf("      OOOOOO   OOOOOOOOO   OOOOOO      \n");
+    printf("         OOOOOO         OOOOOO         \n");
+    printf("             OOOOOOOOOOOO              \n");
+
     int tamanho;
     printf("(1)-Pequena (2)-Media (3)-Grande\n");
     printf("Qual tamanho deseja? \n");
@@ -22,6 +39,7 @@ int main() {
         printf("(5)-Peperoni\n");
         printf("Escolha seu Sabor: \n");
         scanf("%d", &sabor);
+
     } else {
         int sabor1;
         printf("(1)-Mussarela\n");
@@ -40,12 +58,10 @@ int main() {
         printf("(5)-Peperoni\n");
         printf("Escolha o seu Segundo Sabor: \n");
         scanf("%d", &sabor2);
+
     }
 
-    char borda;
-    printf("Sim - Nao\n");
-    printf("Deseja adicionar borda de Catupry? \n");
-    scanf("%c", &borda);
-
+    printf("Muito Obrigado, espero que goste de nossa pizza!\n");
+    printf("Volte Sempre!!\n");
 
 }
