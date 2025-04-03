@@ -9,7 +9,7 @@ int main() {
     printf("    OOOOOO      OOOOO      OOOOOO      \n");
     printf("  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n");
     printf(" OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n");
-    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO     Bem Vindo(a)  \n");
+    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO     Bem Vindo(a)!  \n");
     printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO Escolha sua Pizza!\n");
     printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
     printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
@@ -23,6 +23,11 @@ int main() {
     printf("(1)-Pequena (2)-Media (3)-Grande\n");
     printf("Qual tamanho deseja? \n");
     scanf("%d", &tamanho);
+
+    int borda;
+    printf("(1)-Sim (2)-Nao\n");
+    printf("Deseja Borda de Catupry? \n");
+    scanf("%d", &borda);
 
     int modelosabor;
     printf("(1)-Inteira (2)-Meia a Meia\n");
