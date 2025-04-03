@@ -10,7 +10,7 @@ int main() {
     printf("  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n");
     printf(" OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n");
     printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO     Bem Vindo(a)!  \n");
-    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO Escolha sua Pizza!\n");
+    printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO   Escolha sua Pizza!\n");
     printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
     printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
     printf("  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n");
