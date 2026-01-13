@@ -65,4 +65,12 @@ int main() {
 
     }
 
- 
+    int cebola;
+    printf("(1)-Sim (2)-Nao\n");
+    printf("Deseja retirar a Cebola? \n");
+    scanf("%d", &cebola);
+
+    printf("Muito Obrigado, espero que goste de nossa pizza!\n");
+    printf("Volte Sempre!!\n");
+
+}
